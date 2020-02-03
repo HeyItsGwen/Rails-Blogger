@@ -31,4 +31,28 @@ body {
       color: red;
     }
   }
+
+  .commentDiv {
+    width: 35%;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    padding: 5px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+
+    h4 {
+      margin-top: 0;
+      text-decoration: underline;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .time {
+      font-size: .7em;
+      width: 100%;
+      text-align: right;
+    }
+  }
 }
